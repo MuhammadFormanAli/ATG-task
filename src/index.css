@@ -1,0 +1,25 @@
+#root {
+  max-width: 1480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.eleven-px {
+font-size: 11px !important
+}
+.twelve-px {
+font-size: 12px !important
+}
+.fourteen-px {
+font-size: 14px !important
+}
+.sixteen-px {
+font-size: 12px !important
+}
+.eighteen-px {
+font-size: 12px !important
+}
+.twenty-two-px {
+font-size: 12px !important
+}
