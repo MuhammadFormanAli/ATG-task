@@ -1,10 +1,12 @@
 
+import { useContext } from "react";
 import Recommend from "./Recommend";
 import Connect from "./connect";
+import { UserContext } from "../../context/Context";
 
 const SideBar = () => {
 
-    const user = true
+    const {user} = useContext(UserContext)
 
   const groups = [
     {
@@ -63,6 +65,7 @@ const SideBar = () => {
               className="border-0 fourteen-px w-100 "
               type="text"
               placeholder="Enter your location"
+              disabled ={!user}
             />
             <img src="clear-icon.png" alt="" />
           </div>
