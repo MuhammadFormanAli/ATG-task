@@ -20,6 +20,7 @@ const MainLayout = () => {
           <SideBar />
         </Col>
       </Row>
+  
     </>
   );
 };

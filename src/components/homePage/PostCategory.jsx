@@ -27,8 +27,8 @@ const PostCategory = () => {
         </Nav>
       </div>
       <div className="d-flex align-items-center justify-content-center gap-2">
-        <button className="btn bg-black fw-medium rounded-2 bg-opacity-10">Write a Post <img src="/src/assets/arrow_drop_down.png" alt="" /></button>
-        <button className="btn bg-primary fw-medium rounded-2 bg-opacity-75"> <img src="/src/assets/group_add.png" alt="" /> Join Groups </button>
+        <button className="btn bg-black fw-medium rounded-2 bg-opacity-10">Write a Post <img src="arrow_drop_down.png" alt="" /></button>
+        <button className="btn bg-primary fw-medium rounded-2 bg-opacity-75"> <img src="group_add.png" alt="" /> Join Groups </button>
         
       </div>
     </div>

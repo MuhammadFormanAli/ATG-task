@@ -24,7 +24,7 @@ console.log(members)
     return (
         <div>
           <div className="d-flex align-items-center gap-2 m-3 ">
-            <img src="/src/assets/thumb_up.png" alt="" />
+            <img src="thumb_up.png" alt="" />
             <span className="fourteen-px fw-medium">Connect</span>
           </div>
 
