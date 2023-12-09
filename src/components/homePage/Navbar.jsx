@@ -3,13 +3,14 @@ import { useContext } from "react";
 import SignIn from "../signIn/SignIn";
 import { UserContext } from "../../context/Context";
 import SignUp from "../signUp/SignUp";
+import Profile from "./Profile";
 
 
 const NavigationBar = () => {
 
-  const {handleSignUpShow}= useContext(UserContext)
+  const {handleSignUpShow, user}= useContext(UserContext)
+  console.log(user)
 
-  const user = false;
 
   return (
     <div className="container d-none bg-white px-5 my-1  d-md-flex flex-row align-items-center justify-content-between text-white">
@@ -23,7 +24,7 @@ const NavigationBar = () => {
       />
      
       </div>
-      {user ? <div className="text-black">profile</div> : <div className="text-black fourteen-px">Create account. <button className="btn text-primary fw-medium" onClick={()=>handleSignUpShow(true)}>It’s free!</button></div>}
+      {user ? <Profile /> : <div className="text-black fourteen-px">Create account. <button className="btn text-primary fw-medium" onClick={()=>handleSignUpShow(true)}>It’s free!</button></div>}
 
     <SignIn />
     <SignUp />
