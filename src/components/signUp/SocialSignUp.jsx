@@ -31,14 +31,14 @@ const SocialSignUp = () => {
         onClick={handleFacebookSignIn}
         className="w-100 btn-outline-light input  py-2 my-1 fw-medium align-items-center d-flex justify-content-center gap-2"
       >
-        <img src="/public/facebook-logo.png" alt="" />
+        <img src="facebook-logo.png" alt="" />
         <span>Sign up with Facebook</span>
       </button>
       <button
         onClick={handleGoogleSignIn}
         className="w-100 btn-outline-light input py-2 my-1 fw-medium d-flex align-items-center justify-content-center gap-2 "
       >
-        <img src="/public/google-logo.png" alt="" />{" "}
+        <img src="google-logo.png" alt="" />{" "}
         <span>Sign up with Google</span>
       </button>
       <p className="text-center fw-medium mt-3">Forgotten Password</p>

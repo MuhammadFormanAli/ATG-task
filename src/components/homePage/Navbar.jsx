@@ -12,10 +12,10 @@ const NavigationBar = () => {
   return (
     <div>
       <div className="d-flex d-md-none align-items-center justify-content-end gap-2 my-3 mx-3">
-        <img src="/public/Rectangle.png" alt="" />
-        <img src="/public/Oval.png" alt="" />
+        <img src="Rectangle.png" alt="" />
+        <img src="Oval.png" alt="" />
         {
-          !user?<img className="" onClick={()=>handleSignUpShow(true)} src="/public/Path.png" alt="" /> :<img className="" src="/public/Path.png" alt="" />
+          !user?<img className="" onClick={()=>handleSignUpShow(true)} src="Path.png" alt="" /> :<img className="" src="/public/Path.png" alt="" />
         }
         
         
@@ -24,7 +24,8 @@ const NavigationBar = () => {
       <div className=" d-none bg-white px-5 my-1  d-md-flex flex-row align-items-center justify-content-between text-white">
         <img className="h-75" src="whole.png" alt="logo" />
         <div className="position-relative">
-          <img className="position-absolute top-0 ms-3 mt-2 p-2" src="/public/search-icon.png" alt="" />
+          <img className="position-absolute top-0 ms-3 mt-2 p-2" src="
+          search-icon.png" alt="" />
           <input
             className="bg-black twelve-px bg-opacity-10 focus-ring-danger ps-5 px-4 text-center py-2 fw-medium   m-2 border-0 rounded-pill   "
             type="text"
